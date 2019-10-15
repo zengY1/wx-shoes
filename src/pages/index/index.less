@@ -1,0 +1,83 @@
+.wrapper {
+  background-color: #f1f1f1;
+  height: 100vh;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  width: 30%;
+  height: 100%;
+  // border:1px solid black;
+}
+
+.nav-item {
+  height: 96rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // padding: 20rpx 0;
+  font-size: 30rpx;
+  color: rgb(51, 51, 51);
+
+}
+
+.active {
+  background-color: white;
+  border-left: 10rpx solid green;
+}
+
+.content-list {
+  width: 70%;
+  height: 100vh;
+  // border:1px solid red;
+  background-color: white;
+  padding-left: 40rpx;
+  overflow: scroll-y;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 120rpx;
+  margin-top: 20rpx;
+}
+
+.item-img {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.item-desc {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  width: 100%;
+  padding: 10rpx 30rpx;
+
+}
+
+.item-name {
+  // margin-top: 10rpx;
+  font-size: 28rpx;
+  color: rgb(51, 51, 51)
+}
+
+.item-price {
+  font-size: 28rpx;
+  color: rgb(249, 104, 65);
+  font-weight: 600;
+
+}
+.list-title{
+  font-size: 32rpx;
+  // font-weight: 600;
+  color: rgb(51, 51, 51);
+  padding: 20rpx 0 0;
+}
